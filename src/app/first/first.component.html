@@ -1,0 +1,12 @@
+<!-- line below defines the component communication using @input() -->
+<br>
+<span style="float: left;">{{helloMessage}}</span>
+<br>
+<!-- line below defines the component communication using @output() -->
+<button class="btn"  (click)="SendFoo()">Increase counter</button>
+<h1>{{counter}}</h1>
+<br>
+<!-- line below define ngonchanges() lifecycle hook -->
+<button (click)="changesfromchild()"> change from child</button> 
+<br>
+<h1>{{ParentData}}</h1>
